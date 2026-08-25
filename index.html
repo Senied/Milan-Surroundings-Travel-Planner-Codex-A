@@ -1,337 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#F1EFEC" />
-  <meta name="description" content="Milan and Surroundings Modular Travel Planner 2026. Seven core day modules from the Duomo to the lakes, plus a 30-trip excursion atlas." />
-  <title>Milan — Modular Travel Planner 2026</title>
+  <meta name="theme-color" content="#f3f0e9" />
+  <meta name="description" content="A practical guide to Milan, the Italian lakes and rewarding day trips across Lombardy, Piedmont and nearby Ticino." />
+  <title>Milan &amp; Surroundings — Travel Planner</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260825" />
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="nav" data-nav>
-    <a class="nav__brand" href="#top" aria-label="Milan home">Milan</a>
-    <nav class="nav__links" aria-label="Primary">
+  <header class="site-nav" data-nav>
+    <a class="site-nav__brand" href="#top" aria-label="Milan and Surroundings home">Milan <span>&amp; surroundings</span></a>
+    <nav class="site-nav__links" aria-label="Primary navigation">
       <a href="#journey">Journey</a>
-      <a href="#modules">Modules</a>
-      <a href="#verify">Verified</a>
-      <a href="#downloads">Downloads</a>
+      <a href="#modules">Day plans</a>
+      <a href="#verify">Before you go</a>
+      <a href="#downloads">Guide</a>
     </nav>
-    <div class="nav__actions">
-      <a class="btn btn--ghost" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.html" target="_blank" rel="noopener">Open guide</a>
-      <a class="btn btn--solid" href="#downloads">Get the guide</a>
+    <div class="site-nav__actions">
+      <a class="button button--quiet" href="guide/index.html">Open guide</a>
+      <a class="button button--dark" href="guide/Milan_Excursions_Travel_Planner_2026.pdf" target="_blank" rel="noopener">Printable guide</a>
     </div>
-    <button class="nav__menu" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
-      <span></span><span></span>
-    </button>
+    <button class="site-nav__menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>Menu</button>
   </header>
 
-  <div class="drawer" data-drawer hidden>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" data-mobile-menu hidden>
     <a href="#journey">Journey</a>
-    <a href="#modules">Modules</a>
-    <a href="#verify">Verified</a>
-    <a href="#downloads">Downloads</a>
-    <a class="btn btn--solid" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.html" target="_blank" rel="noopener">Open interactive guide</a>
-  </div>
+    <a href="#modules">Day plans</a>
+    <a href="#verify">Before you go</a>
+    <a href="#downloads">Guide</a>
+    <a class="button button--dark" href="guide/index.html">Open interactive guide</a>
+  </nav>
 
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="hero__media" aria-hidden="true">
-        <img
-          src="assets/images/hero-milan.jpg"
-          alt=""
-          class="hero__img"
-          data-parallax
-          width="2400"
-          height="1600"
-          fetchpriority="high"
-        />
-        <div class="hero__veil"></div>
-      </div>
+  <main id="main" tabindex="-1">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <picture class="hero__media" aria-hidden="true">
+        <source type="image/jpeg" srcset="assets/images/hero-milan-640.jpg 640w, assets/images/hero-milan-960.jpg 960w, assets/images/hero-milan.jpg 1280w" sizes="100vw" />
+        <img src="assets/images/hero-milan.jpg" alt="" width="1280" height="962" fetchpriority="high" decoding="async" data-parallax />
+      </picture>
+      <div class="hero__shade" aria-hidden="true"></div>
       <div class="hero__content">
-        <p class="brand">Milan</p>
-        <h1>The city, the lakes, and thirty roads out.</h1>
-        <p class="lede">A modular planner for Milan and its surroundings — Duomo to Navigli, Como to Bergamo, Monza to the Borromean Islands — with a 30-trip atlas beyond the core seven.</p>
-        <div class="hero__cta">
-          <a class="btn btn--solid btn--lg" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.html" target="_blank" rel="noopener">Open interactive guide</a>
-          <a class="btn btn--light btn--lg" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.pdf" download>Download 82-page PDF</a>
+        <p class="hero__eyebrow">Milan · The lakes · Lombardy</p>
+        <h1 id="hero-title">The city, the lakes, and the journeys between.</h1>
+        <p class="hero__lede">Use Milan as a comfortable base for architecture, neighbourhoods, historic towns, gardens, ferries and mountain horizons.</p>
+        <div class="hero__actions">
+          <a class="button button--light button--large" href="guide/index.html">Open interactive guide</a>
+          <a class="button button--glass button--large" href="guide/Milan_Excursions_Travel_Planner_2026.pdf" target="_blank" rel="noopener">Open printable guide</a>
         </div>
       </div>
-      <div class="hero__meta" aria-hidden="true">
-        <span>2026</span>
-        <span>82 pages</span>
-        <span>7 + 30 trips</span>
+      <a class="hero__next" href="#journey">Explore the journey</a>
+    </section>
+
+    <section class="section journey" id="journey" aria-labelledby="journey-title">
+      <header class="section-heading">
+        <p class="eyebrow">Journey</p>
+        <h2 id="journey-title">One base, many directions.</h2>
+        <p>Milan keeps each day distinct: a city morning can lead to canals at dusk, while direct rail connections open the lakes and historic towns beyond.</p>
+      </header>
+
+      <div class="journey__layout">
+        <figure class="journey__image">
+          <img src="assets/images/atmosphere-excursion.jpg" srcset="assets/images/atmosphere-excursion-640.jpg 640w, assets/images/atmosphere-excursion-960.jpg 960w, assets/images/atmosphere-excursion.jpg 1280w" sizes="(min-width: 920px) 48vw, 100vw" alt="A waterside excursion in the Milan region" width="1280" height="625" loading="lazy" decoding="async" />
+          <figcaption>Choose the day that suits the weather, reservations and pace of your trip.</figcaption>
+        </figure>
+
+        <ol class="journey__days" aria-label="Seven suggested day plans">
+          <li><span>Day 1</span><strong>Historic Milan</strong><small>Duomo, Galleria, Brera and Sforza Castle</small></li>
+          <li><span>Day 2</span><strong>Navigli and Tortona</strong><small>Canals, design and an evening pace</small></li>
+          <li><span>Day 3</span><strong>Varenna and Bellagio</strong><small>Lake Como by rail and ferry</small></li>
+          <li><span>Day 4</span><strong>Bergamo Città Alta</strong><small>Venetian walls and hillside streets</small></li>
+          <li><span>Day 5</span><strong>Pavia and the Certosa</strong><small>University city and monumental abbey</small></li>
+          <li><span>Day 6</span><strong>Monza</strong><small>Royal Villa, cathedral and park</small></li>
+          <li><span>Day 7</span><strong>Stresa and the islands</strong><small>Lake Maggiore when seasonal services run</small></li>
+        </ol>
       </div>
     </section>
 
-    <section class="section journey" id="journey">
-      <div class="section__head">
-        <p class="eyebrow">The arc</p>
-        <h2>Seven core days from one city base.</h2>
-        <p class="support">Rail before road. Tier before choosing. Each module carries its own GO / caution / NO-GO gate.</p>
-      </div>
+    <section class="section day-plans" id="modules" aria-labelledby="plans-title">
+      <header class="section-heading">
+        <p class="eyebrow">Day plans</p>
+        <h2 id="plans-title">Choose a complete day.</h2>
+        <p>Each plan stands on its own. Select a destination for the character of the day, its natural pace and the one thing worth checking first.</p>
+      </header>
 
-      <div class="timeline" data-timeline>
-        <div class="timeline__track" role="tablist" aria-label="Core modules">
-          <button class="day is-active" role="tab" aria-selected="true" data-day="0" type="button">
-            <span class="day__date">M1</span>
-            <span class="day__name">Core</span>
-          </button>
-          <button class="day" role="tab" aria-selected="false" data-day="1" type="button">
-            <span class="day__date">M2</span>
-            <span class="day__name">Navigli</span>
-          </button>
-          <button class="day" role="tab" aria-selected="false" data-day="2" type="button">
-            <span class="day__date">M3</span>
-            <span class="day__name">Como</span>
-          </button>
-          <button class="day" role="tab" aria-selected="false" data-day="3" type="button">
-            <span class="day__date">M4</span>
-            <span class="day__name">Bergamo</span>
-          </button>
-          <button class="day" role="tab" aria-selected="false" data-day="4" type="button">
-            <span class="day__date">M5</span>
-            <span class="day__name">Pavia</span>
-          </button>
-          <button class="day" role="tab" aria-selected="false" data-day="5" type="button">
-            <span class="day__date">M6</span>
-            <span class="day__name">Monza</span>
-          </button>
-          <button class="day" role="tab" aria-selected="false" data-day="6" type="button">
-            <span class="day__date">M7</span>
-            <span class="day__name">Stresa</span>
-          </button>
+      <div class="plan-tabs" data-tabs>
+        <div class="plan-tabs__list" role="tablist" aria-label="Day plans" aria-orientation="horizontal">
+          <button id="plan-tab-milan" class="plan-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="plan-panel-milan" tabindex="0">Milan</button>
+          <button id="plan-tab-navigli" class="plan-tab" type="button" role="tab" aria-selected="false" aria-controls="plan-panel-navigli" tabindex="-1">Navigli</button>
+          <button id="plan-tab-como" class="plan-tab" type="button" role="tab" aria-selected="false" aria-controls="plan-panel-como" tabindex="-1">Lake Como</button>
+          <button id="plan-tab-bergamo" class="plan-tab" type="button" role="tab" aria-selected="false" aria-controls="plan-panel-bergamo" tabindex="-1">Bergamo</button>
+          <button id="plan-tab-pavia" class="plan-tab" type="button" role="tab" aria-selected="false" aria-controls="plan-panel-pavia" tabindex="-1">Pavia</button>
+          <button id="plan-tab-monza" class="plan-tab" type="button" role="tab" aria-selected="false" aria-controls="plan-panel-monza" tabindex="-1">Monza</button>
+          <button id="plan-tab-stresa" class="plan-tab" type="button" role="tab" aria-selected="false" aria-controls="plan-panel-stresa" tabindex="-1">Stresa</button>
         </div>
 
-        <div class="timeline__stage" data-day-panel>
-          <figure class="timeline__figure">
-            <img src="assets/images/module-core.jpg" alt="Galleria Vittorio Emanuele II in Milan" data-day-img width="1600" height="1067" />
-          </figure>
-          <div class="timeline__copy">
-            <p class="timeline__kicker" data-day-kicker>M1 · Historic core</p>
-            <h3 data-day-title>Milan historic core</h3>
-            <p data-day-body>Duomo, Galleria, Sforza and Brera — the reservation-led city day that orients every lake and hill excursion.</p>
-            <p class="timeline__stay" data-day-stay>Base · Duomo / Sant’Ambrogio hotels</p>
+        <article id="plan-panel-milan" class="plan-panel" role="tabpanel" aria-labelledby="plan-tab-milan" tabindex="0">
+          <figure class="plan-panel__media"><img src="assets/images/module-core.jpg" srcset="assets/images/module-core-640.jpg 640w, assets/images/module-core-960.jpg 960w, assets/images/module-core.jpg 1280w" sizes="(min-width: 860px) 58vw, 100vw" alt="Galleria Vittorio Emanuele II in Milan" width="1280" height="1920" loading="lazy" decoding="async" /></figure>
+          <div class="plan-panel__body">
+            <p class="plan-panel__tag">Architecture and art · 7–9 hours</p><h3>Historic Milan</h3>
+            <p>Start with the Duomo and rooftop, cross the Galleria, continue through Brera and finish at Sforza Castle or the Last Supper.</p>
+            <dl class="plan-panel__facts"><div><dt>Best for</dt><dd>A first day in Milan</dd></div><div><dt>Plan ahead</dt><dd>Reserve the Last Supper early</dd></div><div><dt>Pace</dt><dd>Mostly walking, with easy Metro support</dd></div></dl>
+            <a class="text-link" href="guide/index.html#module-m1">View the full day plan</a>
           </div>
-        </div>
-      </div>
-    </section>
+        </article>
 
-    <section class="section modules" id="modules">
-      <div class="section__head">
-        <p class="eyebrow">Modular builder</p>
-        <h2>Compose the week, or expand the atlas.</h2>
-        <p class="support">Seven selectable core modules stay intact. Thirty MX excursions sit beside them as discovery — never as silent substitutes.</p>
-      </div>
-
-      <div class="module-board" data-modules>
-        <div class="module-board__list" role="tablist" aria-label="Travel modules">
-          <button class="mod is-active" role="tab" aria-selected="true" data-mod="core" type="button">
-            <span class="mod__id">M1</span>
-            <span class="mod__label">Core</span>
-          </button>
-          <button class="mod" role="tab" aria-selected="false" data-mod="navigli" type="button">
-            <span class="mod__id">M2</span>
-            <span class="mod__label">Navigli</span>
-          </button>
-          <button class="mod" role="tab" aria-selected="false" data-mod="como" type="button">
-            <span class="mod__id">M3</span>
-            <span class="mod__label">Como</span>
-          </button>
-          <button class="mod" role="tab" aria-selected="false" data-mod="bergamo" type="button">
-            <span class="mod__id">M4</span>
-            <span class="mod__label">Bergamo</span>
-          </button>
-          <button class="mod" role="tab" aria-selected="false" data-mod="pavia" type="button">
-            <span class="mod__id">M5</span>
-            <span class="mod__label">Pavia</span>
-          </button>
-          <button class="mod" role="tab" aria-selected="false" data-mod="monza" type="button">
-            <span class="mod__id">M6</span>
-            <span class="mod__label">Monza</span>
-          </button>
-          <button class="mod" role="tab" aria-selected="false" data-mod="stresa" type="button">
-            <span class="mod__id">M7</span>
-            <span class="mod__label">Stresa</span>
-          </button>
-        </div>
-
-        <article class="module-panel" data-mod-panel>
-          <div class="module-panel__media">
-            <img src="assets/images/module-core.jpg" alt="" data-mod-img width="1600" height="1067" />
+        <article id="plan-panel-navigli" class="plan-panel" role="tabpanel" aria-labelledby="plan-tab-navigli" tabindex="0" hidden>
+          <figure class="plan-panel__media"><img src="assets/images/module-navigli.jpg" srcset="assets/images/module-navigli-640.jpg 640w, assets/images/module-navigli-960.jpg 960w, assets/images/module-navigli.jpg 1280w" sizes="(min-width: 860px) 58vw, 100vw" alt="Navigli canals in Milan" width="1280" height="1707" loading="lazy" decoding="async" /></figure>
+          <div class="plan-panel__body">
+            <p class="plan-panel__tag">Neighbourhoods and design · 5–7 hours</p><h3>Navigli and Tortona</h3>
+            <p>Move from design studios and independent spaces into a slower canal-side evening, with room for aperitivo and an unhurried dinner.</p>
+            <dl class="plan-panel__facts"><div><dt>Best for</dt><dd>A relaxed second city day</dd></div><div><dt>Timing</dt><dd>Begin in the afternoon</dd></div><div><dt>Pace</dt><dd>Easy walking and short tram or Metro rides</dd></div></dl>
+            <a class="text-link" href="guide/index.html#module-m2">View the full day plan</a>
           </div>
-          <div class="module-panel__body">
-            <p class="module-panel__tag" data-mod-tag>Historic core · Reservation-led</p>
-            <h3 data-mod-title>Milan historic core</h3>
-            <p data-mod-body>The cathedral, rooftop light, Galleria geometry and castle courts — timed so the city still feels walkable.</p>
-            <ul class="module-panel__facts" data-mod-facts>
-              <li>Duomo and rooftop</li>
-              <li>Galleria and Sforza Castle</li>
-              <li>GO / caution / NO-GO gate included</li>
-            </ul>
+        </article>
+
+        <article id="plan-panel-como" class="plan-panel" role="tabpanel" aria-labelledby="plan-tab-como" tabindex="0" hidden>
+          <figure class="plan-panel__media"><img src="assets/images/module-como.jpg" srcset="assets/images/module-como-640.jpg 640w, assets/images/module-como-960.jpg 960w, assets/images/module-como.jpg 1280w" sizes="(min-width: 860px) 58vw, 100vw" alt="Varenna on Lake Como" width="1280" height="810" loading="lazy" decoding="async" /></figure>
+          <div class="plan-panel__body">
+            <p class="plan-panel__tag">Lake and ferry · 10–12 hours</p><h3>Varenna and Bellagio</h3>
+            <p>Take the direct train to Varenna, cross the lake by ferry and let the boat timetable shape a balanced day between stone lanes and waterfront gardens.</p>
+            <dl class="plan-panel__facts"><div><dt>Best for</dt><dd>The classic Lake Como experience</dd></div><div><dt>Check first</dt><dd>Weather, ferries and final return train</dd></div><div><dt>Pace</dt><dd>Early start with moderate walking</dd></div></dl>
+            <a class="text-link" href="guide/index.html#module-m3">View the full day plan</a>
+          </div>
+        </article>
+
+        <article id="plan-panel-bergamo" class="plan-panel" role="tabpanel" aria-labelledby="plan-tab-bergamo" tabindex="0" hidden>
+          <figure class="plan-panel__media"><img src="assets/images/module-bergamo.jpg" srcset="assets/images/module-bergamo-640.jpg 640w, assets/images/module-bergamo-960.jpg 960w, assets/images/module-bergamo.jpg 1280w" sizes="(min-width: 860px) 58vw, 100vw" alt="Bergamo Città Alta" width="1280" height="960" loading="lazy" decoding="async" /></figure>
+          <div class="plan-panel__body">
+            <p class="plan-panel__tag">Historic hill town · 8–10 hours</p><h3>Bergamo Città Alta</h3>
+            <p>Ride the funicular into the upper city, walk the Venetian walls and settle into a compact historic centre with a distinctly different rhythm from Milan.</p>
+            <dl class="plan-panel__facts"><div><dt>Best for</dt><dd>Architecture, views and an easy rail day</dd></div><div><dt>Check first</dt><dd>Funicular notices and return trains</dd></div><div><dt>Pace</dt><dd>Moderate walking on slopes and stone streets</dd></div></dl>
+            <a class="text-link" href="guide/index.html#module-m4">View the full day plan</a>
+          </div>
+        </article>
+
+        <article id="plan-panel-pavia" class="plan-panel" role="tabpanel" aria-labelledby="plan-tab-pavia" tabindex="0" hidden>
+          <figure class="plan-panel__media"><img src="assets/images/module-pavia.jpg" srcset="assets/images/module-pavia-640.jpg 640w, assets/images/module-pavia-960.jpg 960w, assets/images/module-pavia.jpg 1280w" sizes="(min-width: 860px) 58vw, 100vw" alt="Certosa di Pavia" width="1280" height="941" loading="lazy" decoding="async" /></figure>
+          <div class="plan-panel__body">
+            <p class="plan-panel__tag">History and architecture · 8–10 hours</p><h3>Pavia and the Certosa</h3>
+            <p>Pair Pavia’s university streets and covered bridge with the richly detailed Certosa, using the rail corridor to keep the day simple.</p>
+            <dl class="plan-panel__facts"><div><dt>Best for</dt><dd>A composed cultural day south of Milan</dd></div><div><dt>Check first</dt><dd>Certosa opening days and reservations</dd></div><div><dt>Pace</dt><dd>Moderate walking with two rail stops</dd></div></dl>
+            <a class="text-link" href="guide/index.html#module-m5">View the full day plan</a>
+          </div>
+        </article>
+
+        <article id="plan-panel-monza" class="plan-panel" role="tabpanel" aria-labelledby="plan-tab-monza" tabindex="0" hidden>
+          <figure class="plan-panel__media"><img src="assets/images/module-monza.jpg" srcset="assets/images/module-monza-640.jpg 640w, assets/images/module-monza-960.jpg 960w, assets/images/module-monza.jpg 1280w" sizes="(min-width: 860px) 58vw, 100vw" alt="Royal Villa of Monza" width="1280" height="853" loading="lazy" decoding="async" /></figure>
+          <div class="plan-panel__body">
+            <p class="plan-panel__tag">Royal villa and park · 7–9 hours</p><h3>Monza</h3>
+            <p>Combine the Royal Villa, cathedral and broad parkland for an easy regional day that feels green, spacious and close to the city.</p>
+            <dl class="plan-panel__facts"><div><dt>Best for</dt><dd>Gardens, heritage and a gentler pace</dd></div><div><dt>Check first</dt><dd>Villa and cathedral opening calendars</dd></div><div><dt>Pace</dt><dd>Easy rail access with flexible walking</dd></div></dl>
+            <a class="text-link" href="guide/index.html#module-m6">View the full day plan</a>
+          </div>
+        </article>
+
+        <article id="plan-panel-stresa" class="plan-panel" role="tabpanel" aria-labelledby="plan-tab-stresa" tabindex="0" hidden>
+          <figure class="plan-panel__media"><img src="assets/images/module-stresa.jpg" srcset="assets/images/module-stresa-640.jpg 640w, assets/images/module-stresa-960.jpg 960w, assets/images/module-stresa.jpg 1280w" sizes="(min-width: 860px) 58vw, 100vw" alt="Isola Bella on Lake Maggiore" width="1280" height="850" loading="lazy" decoding="async" /></figure>
+          <div class="plan-panel__body">
+            <p class="plan-panel__tag">Seasonal lake day · 10–12 hours</p><h3>Stresa and the Borromean Islands</h3>
+            <p>Walk the Stresa lakefront, then use scheduled boats for island palaces, gardens and views across Lake Maggiore.</p>
+            <dl class="plan-panel__facts"><div><dt>Best for</dt><dd>Formal gardens and a polished lake day</dd></div><div><dt>Check first</dt><dd>Boat service and palace calendars</dd></div><div><dt>Pace</dt><dd>Early start with several boat connections</dd></div></dl>
+            <a class="text-link" href="guide/index.html#module-m7">View the full day plan</a>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="atmosphere" aria-label="Destination atmosphere">
-      <img src="assets/images/atmosphere-lake.jpg" alt="Lake Como lakefront and mountains" width="2000" height="1200" loading="lazy" />
-      <blockquote>
-        <p>City mornings. Ferry afternoons. Thirty more ideas waiting.</p>
-      </blockquote>
-    </section>
+    <section class="section practical" id="verify" aria-labelledby="practical-title">
+      <header class="section-heading">
+        <p class="eyebrow">Before you go</p>
+        <h2 id="practical-title">Four checks make the plan reliable.</h2>
+        <p>Use live information for your exact date. A good itinerary leaves enough room to change course when services, weather or access shift.</p>
+      </header>
 
-    <section class="section verify" id="verify">
-      <div class="section__head">
-        <p class="eyebrow">Release gate</p>
-        <h2>Audited end to end.</h2>
-        <p class="support">Additive expansion with M1–M7 frozen from the predecessor. Catalogue, photos, links and a ten-role panel — all PASS.</p>
-      </div>
-
-      <div class="stats" aria-label="Release metrics">
-        <div class="stat">
-          <span class="stat__value" data-count="82">0</span>
-          <span class="stat__label">PDF pages reviewed</span>
-        </div>
-        <div class="stat">
-          <span class="stat__value" data-count="31">0</span>
-          <span class="stat__label">Stable photo IDs</span>
-        </div>
-        <div class="stat">
-          <span class="stat__value" data-count="30">0</span>
-          <span class="stat__label">MX excursion entries</span>
-        </div>
-        <div class="stat">
-          <span class="stat__value" data-count="211">0</span>
-          <span class="stat__label">External targets</span>
-        </div>
-      </div>
-
-      <div class="checks">
-        <div class="check is-pass">
-          <span class="check__mark" aria-hidden="true"></span>
-          <div>
-            <strong>Final release gate</strong>
-            <p>Browser · PDF · every-page visual · 10-role panel PASS</p>
-          </div>
-        </div>
-        <div class="check is-pass">
-          <span class="check__mark" aria-hidden="true"></span>
-          <div>
-            <strong>Core module integrity</strong>
-            <p>M1–M7 outerHTML matches the accepted predecessor</p>
-          </div>
-        </div>
-        <div class="check is-pass">
-          <span class="check__mark" aria-hidden="true"></span>
-          <div>
-            <strong>Catalogue separation</strong>
-            <p>30 MX entries · none selectable as a core module</p>
-          </div>
-        </div>
-        <div class="check is-pass">
-          <span class="check__mark" aria-hidden="true"></span>
-          <div>
-            <strong>Link audit</strong>
-            <p>211 targets · hard failures 0 · 207 reachable</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="hashes" data-hashes>
-        <h3>Controlling SHA-256</h3>
-        <div class="hash" data-hash-row>
-          <div class="hash__meta">
-            <span class="hash__label">HTML guide</span>
-            <code class="hash__value">DB52BD14F9742FAE42099680196DDB90CD3E580B5DB6C36DD7FC152B1DB3EC9B</code>
-          </div>
-          <button type="button" class="hash__copy" data-copy>Copy</button>
-        </div>
-        <div class="hash" data-hash-row>
-          <div class="hash__meta">
-            <span class="hash__label">PDF</span>
-            <code class="hash__value">4180F10FAA839106CCD7E063825E762A62CE6D6B7BF31208D25144755D0632AE</code>
-          </div>
-          <button type="button" class="hash__copy" data-copy>Copy</button>
-        </div>
-        <div class="hash" data-hash-row>
-          <div class="hash__meta">
-            <span class="hash__label">Complete bundle</span>
-            <code class="hash__value">CE890CC2C3C25096EF57CAF8B4BE32315449AD558933DDC3DEABBD7489F45042</code>
-          </div>
-          <button type="button" class="hash__copy" data-copy>Copy</button>
-        </div>
+      <div class="practical__grid">
+        <article class="practical-card"><p class="practical-card__number" aria-hidden="true">01</p><h3>Services and opening days</h3><p>Confirm museum, villa, abbey, funicular and ferry calendars before fixing the order of the day.</p><a class="text-link" href="guide/index.html#transport">Transport and opening information</a></article>
+        <article class="practical-card"><p class="practical-card__number" aria-hidden="true">02</p><h3>Advance booking</h3><p>Reserve limited-entry attractions first, especially the Last Supper, seasonal island sites and timed interiors.</p><a class="text-link" href="guide/index.html#packing">Open the planning checklist</a></article>
+        <article class="practical-card"><p class="practical-card__number" aria-hidden="true">03</p><h3>Weather</h3><p>Keep lake and mountain days flexible. Heat, storms, wind and visibility can materially change the experience.</p><a class="text-link" href="https://www.regione.lombardia.it/sicurezza-e-protezione-civile/pianificazione-allertamento-e-gestione-emergenze/monitoraggio-e-allertamento/red-servizio-allertalom" target="_blank" rel="noopener">Check Lombardy weather alerts</a></article>
+        <article class="practical-card"><p class="practical-card__number" aria-hidden="true">04</p><h3>Live rail, boats and access</h3><p>Build backwards from the final safe return, then check current rail notices, boat operations and mobility information.</p><div class="practical-card__links"><a class="text-link" href="https://www.trenord.it/en/routes-and-timetables/journey/train-timetable/" target="_blank" rel="noopener">Trenord journey planner</a><a class="text-link" href="https://www.navigazionelaghi.it/en/notices/" target="_blank" rel="noopener">Lake service notices</a></div></article>
       </div>
     </section>
 
-    <section class="section downloads" id="downloads">
-      <div class="section__head">
-        <p class="eyebrow">Package</p>
-        <h2>Everything you need.</h2>
-        <p class="support">Interactive guide, print PDF, photo provenance, QA evidence and checksums.</p>
-      </div>
+    <figure class="interlude" aria-label="Lake Como landscape">
+      <img src="assets/images/atmosphere-lake.jpg" srcset="assets/images/atmosphere-lake-640.jpg 640w, assets/images/atmosphere-lake-960.jpg 960w, assets/images/atmosphere-lake.jpg 1280w" sizes="100vw" alt="Lake Como waterfront and mountains" width="1280" height="960" loading="lazy" decoding="async" />
+      <figcaption>Keep one day open for the place that looks best when you arrive.</figcaption>
+    </figure>
 
-      <div class="dl-grid">
-        <a class="dl" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1_bundle.zip" download>
-          <span class="dl__kind">Primary</span>
-          <span class="dl__title">Complete downloadable ZIP</span>
-          <span class="dl__meta">Full release package</span>
-        </a>
-        <a class="dl" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.pdf" download>
-          <span class="dl__kind">Print</span>
-          <span class="dl__title">82-page PDF</span>
-          <span class="dl__meta">A4 · visually inspected</span>
-        </a>
-        <a class="dl" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.html" target="_blank" rel="noopener">
-          <span class="dl__kind">Interactive</span>
-          <span class="dl__title">HTML guide</span>
-          <span class="dl__meta">Self-contained · modular builder</span>
-        </a>
-        <a class="dl" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1_QA_REPORT.md" download>
-          <span class="dl__kind">QA</span>
-          <span class="dl__title">Human-readable QA report</span>
-          <span class="dl__meta">Gates · lineage · review roles</span>
-        </a>
-        <a class="dl" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1_QA_EVIDENCE.json" download>
-          <span class="dl__kind">Evidence</span>
-          <span class="dl__title">Detailed QA evidence</span>
-          <span class="dl__meta">Browser · PDF · links · regression</span>
-        </a>
-        <a class="dl" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1_SHA256SUMS.txt" download>
-          <span class="dl__kind">Integrity</span>
-          <span class="dl__title">SHA-256 checksums</span>
-          <span class="dl__meta">Controlling hashes</span>
-        </a>
+    <section class="section guide-formats" id="downloads" aria-labelledby="guide-title">
+      <header class="section-heading"><p class="eyebrow">Guide</p><h2 id="guide-title">Plan online. Carry it offline.</h2><p>The detailed guide keeps every itinerary, practical note and direct planning link together in one place.</p></header>
+      <div class="format-grid">
+        <a class="format-card format-card--feature" href="guide/index.html"><span class="format-card__type">Interactive</span><strong>Open the complete travel guide</strong><span>Search destinations, compare day plans, estimate costs and keep a departure checklist.</span></a>
+        <a class="format-card" href="guide/Milan_Excursions_Travel_Planner_2026.pdf" target="_blank" rel="noopener"><span class="format-card__type">Printable</span><strong>Open the printable guide</strong><span>Use the complete reference offline or print the sections you need.</span></a>
       </div>
-    </section>
-
-    <section class="section caution" id="live-checks">
-      <div class="caution__inner">
-        <p class="eyebrow">Before departure</p>
-        <h2>Live checks still required.</h2>
-        <p class="support">Timetables, fares, closures, weather, lifts, boats, ticket inventory and access restrictions remain live. Discovery lists are lineage — operational guidance uses official transport, park and attraction sources for your exact date.</p>
-      </div>
+      <details class="earlier-edition"><summary>Earlier edition</summary><div class="earlier-edition__links"><a class="text-link" href="previous/index.html">Open earlier interactive guide</a><a class="text-link" href="previous/Milan_Excursions_Travel_Planner_2026_Earlier.pdf" target="_blank" rel="noopener">Open earlier printable guide</a></div></details>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer__brand">Milan</div>
-    <p>Surroundings Modular Travel Planner 2026 · Released 24 August 2026</p>
-    <p class="footer__credit">Photography from the guide photo bank (Commons-licensed identities P001–P031). Full provenance in the photo manifest.</p>
+    <p class="footer__brand">Milan <span>&amp; surroundings</span></p>
+    <p>Check current timetables, opening hours, weather and access before travel.</p>
+    <a href="#top">Back to top</a>
   </footer>
 
-  <div class="toast" data-toast hidden role="status" aria-live="polite">Copied</div>
-  <div class="mobile-bar" data-mobile-bar>
-    <a class="btn btn--solid" href="releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.html" target="_blank" rel="noopener">Open guide</a>
-    <a class="btn btn--ghost" href="#downloads">Downloads</a>
+  <div class="mobile-actions" data-mobile-actions>
+    <a class="button button--dark" href="guide/index.html">Open guide</a>
+    <a class="button button--quiet" href="guide/Milan_Excursions_Travel_Planner_2026.pdf" target="_blank" rel="noopener">Printable</a>
   </div>
 
-  <script src="app.js" defer></script>
+  <script src="app.js?v=20260825" defer></script>
 </body>
 </html>
