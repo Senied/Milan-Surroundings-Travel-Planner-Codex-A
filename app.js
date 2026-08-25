@@ -15,13 +15,18 @@
     const nextOpen = Boolean(open) && !desktopMedia.matches;
     nav.classList.toggle("is-open", nextOpen);
     menuToggle.setAttribute("aria-expanded", String(nextOpen));
-    menuToggle.setAttribute("aria-label", nextOpen ? "Close menu" : "Open menu");
+    menuToggle.setAttribute(
+      "aria-label",
+      nextOpen ? "Close menu" : "Open menu",
+    );
     menuToggle.textContent = nextOpen ? "Close" : "Menu";
     mobileMenu.hidden = !nextOpen;
     document.body.classList.toggle("menu-open", nextOpen);
 
     if (nextOpen) {
-      window.requestAnimationFrame(() => mobileMenu.querySelector("a")?.focus());
+      window.requestAnimationFrame(() =>
+        mobileMenu.querySelector("a")?.focus(),
+      );
     } else if (restoreFocus) {
       menuToggle.focus();
     }
@@ -37,12 +42,16 @@
 
   document.addEventListener("pointerdown", (event) => {
     if (menuToggle?.getAttribute("aria-expanded") !== "true") return;
-    if (nav?.contains(event.target) || mobileMenu?.contains(event.target)) return;
+    if (nav?.contains(event.target) || mobileMenu?.contains(event.target))
+      return;
     setMenu(false);
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && menuToggle?.getAttribute("aria-expanded") === "true") {
+    if (
+      event.key === "Escape" &&
+      menuToggle?.getAttribute("aria-expanded") === "true"
+    ) {
       event.preventDefault();
       setMenu(false, true);
     }
@@ -65,7 +74,11 @@
       panels.forEach((panel) => {
         panel.hidden = panel.id !== panelId;
       });
-      tab.scrollIntoView({ behavior: reducedMotion.matches ? "auto" : "smooth", block: "nearest", inline: "center" });
+      tab.scrollIntoView({
+        behavior: reducedMotion.matches ? "auto" : "smooth",
+        block: "nearest",
+        inline: "center",
+      });
       if (moveFocus) tab.focus();
     };
 
@@ -73,8 +86,10 @@
       tab.addEventListener("click", () => selectTab(tab));
       tab.addEventListener("keydown", (event) => {
         let nextIndex = null;
-        if (event.key === "ArrowRight" || event.key === "ArrowDown") nextIndex = (index + 1) % tabs.length;
-        if (event.key === "ArrowLeft" || event.key === "ArrowUp") nextIndex = (index - 1 + tabs.length) % tabs.length;
+        if (event.key === "ArrowRight" || event.key === "ArrowDown")
+          nextIndex = (index + 1) % tabs.length;
+        if (event.key === "ArrowLeft" || event.key === "ArrowUp")
+          nextIndex = (index - 1 + tabs.length) % tabs.length;
         if (event.key === "Home") nextIndex = 0;
         if (event.key === "End") nextIndex = tabs.length - 1;
         if (nextIndex === null) return;
@@ -89,7 +104,10 @@
     const y = window.scrollY;
     nav?.classList.toggle("is-solid", y > 24);
     if (mobileActions && hero) {
-      mobileActions.classList.toggle("is-visible", y > hero.offsetHeight * 0.72);
+      mobileActions.classList.toggle(
+        "is-visible",
+        y > hero.offsetHeight * 0.72,
+      );
     }
     if (parallaxImage && !reducedMotion.matches) {
       const offset = Math.min(y, 620) * 0.1;
@@ -108,7 +126,11 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", onScroll, { passive: true });
 
-  const revealTargets = [...document.querySelectorAll(".section-heading, .journey__layout, .plan-tabs, .practical__grid, .format-grid, .earlier-edition")];
+  const revealTargets = [
+    ...document.querySelectorAll(
+      ".section-heading, .journey__layout, .plan-tabs, .practical__grid, .format-grid",
+    ),
+  ];
   if (reducedMotion.matches || !("IntersectionObserver" in window)) {
     revealTargets.forEach((element) => element.classList.add("is-visible"));
   } else {
@@ -121,7 +143,7 @@
           currentObserver.unobserve(entry.target);
         });
       },
-      { threshold: 0.12, rootMargin: "0px 0px -7% 0px" }
+      { threshold: 0.12, rootMargin: "0px 0px -7% 0px" },
     );
     revealTargets.forEach((element) => observer.observe(element));
   }
