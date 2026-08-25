@@ -840,12 +840,6 @@ main:focus {
   }
 }
 
-@media (min-width: 1040px) {
-  .format-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
 @media (min-width: 860px) {
   .plan-panel {
     grid-template-columns: minmax(0, 1.15fr) minmax(330px, 0.85fr);
