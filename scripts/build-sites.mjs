@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outputRoot = join(projectRoot, "dist");
 const clientRoot = join(outputRoot, "client");
+const serverRoot = join(outputRoot, "server");
 const publicEntries = [
   ".nojekyll",
   "index.html",
@@ -23,6 +24,8 @@ if (!clientRoot.startsWith(`${outputRoot}${sep}`)) {
 
 await rm(clientRoot, { recursive: true, force: true });
 await mkdir(clientRoot, { recursive: true });
+await rm(serverRoot, { recursive: true, force: true });
+await mkdir(serverRoot, { recursive: true });
 
 for (const entry of publicEntries) {
   await cp(join(projectRoot, entry), join(clientRoot, entry), {
@@ -31,4 +34,9 @@ for (const entry of publicEntries) {
   });
 }
 
-console.log(`Prepared ${publicEntries.length} public entries in dist/client.`);
+await cp(
+  join(projectRoot, "worker", "index.js"),
+  join(serverRoot, "index.js"),
+);
+
+console.log(`Prepared ${publicEntries.length} public entries for hosting.`);
