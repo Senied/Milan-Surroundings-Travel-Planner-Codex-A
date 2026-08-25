@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1",
+  "guide": "milan_surroundings",
+  "title": "Milan and Surroundings Modular Travel Planner 2026",
+  "version": "v1.1",
+  "release_date": "2026-08-24",
+  "status": "release",
+  "lineage": {
+    "first_release": false,
+    "supersedes": "v1.0",
+    "predecessor_stem": "Milan_Surroundings_Modular_Travel_Planner_2026_v1_0",
+    "predecessor_files_at_packaging": {
+      "Milan_Surroundings_Modular_Travel_Planner_2026_v1_0.html": {
+        "bytes": 14193445,
+        "sha256": "871D9A433F3D257B9C40D89BF22B3855161CB88CE5634D86BBA943122975E651"
+      },
+      "Milan_Surroundings_Modular_Travel_Planner_2026_v1_0.pdf": {
+        "bytes": 11765034,
+        "sha256": "C5E8940D3FDA393345C478837FB3F61B809661A0144BC96DCD2609ECCF10E286"
+      },
+      "Milan_Surroundings_Modular_Travel_Planner_2026_v1_0_photo_manifest.json": {
+        "bytes": 43339,
+        "sha256": "D12CE4C11428AA71766622CDAE36FE58769188A006675374B605AC8343115D93"
+      }
+    }
+  },
+  "quality_gates": {
+    "browser": "PASS",
+    "pdf": "PASS",
+    "external_links": "PASS",
+    "m1_to_m7_regression": "PASS",
+    "m1_to_m7_outer_html_regression": "PASS",
+    "mx_catalogue_separation": "PASS",
+    "exact_30_item_mx_catalogue": "PASS",
+    "exact_external_link_directory": "PASS",
+    "p001_to_p025_immutability": "PASS",
+    "v1_0_url_subset": "PASS",
+    "every_page_visual_review": "PASS",
+    "ten_role_review": "PASS"
+  },
+  "files": [
+    {
+      "path": "Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.html",
+      "bytes": 17686332,
+      "sha256": "DB52BD14F9742FAE42099680196DDB90CD3E580B5DB6C36DD7FC152B1DB3EC9B"
+    },
+    {
+      "path": "Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.pdf",
+      "bytes": 14909867,
+      "sha256": "4180F10FAA839106CCD7E063825E762A62CE6D6B7BF31208D25144755D0632AE"
+    },
+    {
+      "path": "Milan_Surroundings_Modular_Travel_Planner_2026_v1_1_photo_manifest.json",
+      "bytes": 53658,
+      "sha256": "671A07C8FADDD46E567A2C9C8562949FE60A934DE027B85425515504C6BA028D"
+    },
+    {
+      "path": "Milan_Surroundings_Modular_Travel_Planner_2026_v1_1_QA_EVIDENCE.json",
+      "bytes": 184719,
+      "sha256": "73044CD23FD391056FDC2370A314D30EC2449EB672AADB0E2C0EF896E92B0AC7"
+    },
+    {
+      "path": "Milan_Surroundings_Modular_Travel_Planner_2026_v1_1_QA_REPORT.md",
+      "bytes": 2872,
+      "sha256": "2A65518C3C7AB5F373EE391C85EDD1B4EFD79BA2641A8E3025248DC1F8FFBF5D"
+    },
+    {
+      "path": "verification/desktop.png",
+      "bytes": 1250484,
+      "sha256": "B5A596462176DF53672986411BAC3BEFB4A53CD8A2BAA5526212766C52E367D7"
+    },
+    {
+      "path": "verification/mobile_320.png",
+      "bytes": 22997,
+      "sha256": "B391F99F668769C39139C57136E6325F9700E97411BDD8A944EA7551D8ADA7E3"
+    },
+    {
+      "path": "verification/mobile_390.png",
+      "bytes": 85065,
+      "sha256": "5123F7F676F5A2CEDDD82FFB56B281DDDD57C013983D09AC4DE5133A75BBD949"
+    }
+  ]
+}

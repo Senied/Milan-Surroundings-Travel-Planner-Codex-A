@@ -1,0 +1,1069 @@
+{
+  "schema_version": "1.0",
+  "guide_version": "1.1",
+  "guide": "Milan and Surroundings Modular Travel Planner 2026",
+  "generated_at": "2026-08-24T21:29:37+02:00",
+  "logical_photo_count": 31,
+  "visible_photo_placement_count": 63,
+  "unique_binary_hashes": 31,
+  "photos": [
+    {
+      "id": "P001",
+      "caption": "Milan Cathedral facade",
+      "query": "Milan Cathedral Duomo facade photograph",
+      "source_image_sha1": "a02289ffd6337fb54852cc0d5f0e8d2fc308cfa3",
+      "commons_title": "File:Milan Cathedral from Piazza del Duomo.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Milan_Cathedral_from_Piazza_del_Duomo.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg/1280px-Milan_Cathedral_from_Piazza_del_Duomo.jpg",
+      "creator": "Jiuguang Wang",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Milan Cathedral from Piazza del Duomo",
+      "source_date": "2014-01-30 14:01:13",
+      "original_width_px": 4164,
+      "original_height_px": 3129,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 962,
+      "binary_sha256": "CD5F6D079707DB6990588B4CCA3EEE780DDFCD9DCBE68866503E9B0A7968CFF9",
+      "candidate_count": 8,
+      "contextual_appearance_count": 2,
+      "appearance_count": 3,
+      "occurrences": [
+        {
+          "anchor": "photo-P001-O01",
+          "context": "Cover"
+        },
+        {
+          "anchor": "photo-P001-O02",
+          "context": "M1 Milan historic core"
+        },
+        {
+          "anchor": "photo-P001-O03",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "caption": "Duomo rooftop",
+      "query": "Duomo di Milano roof",
+      "source_image_sha1": "f59ad1266e92c257cf91e98f2e76228e84b43cee",
+      "commons_title": "File:Milano - Duomo 0489.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Milano_-_Duomo_0489.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Milano_-_Duomo_0489.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Milano_-_Duomo_0489.jpg/1280px-Milano_-_Duomo_0489.jpg",
+      "creator": "Phyrexian",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "The cathedral of Milan , Italy .",
+      "source_date": "Taken on 5 July 2022",
+      "original_width_px": 3936,
+      "original_height_px": 5904,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 1920,
+      "binary_sha256": "713A3DCF937B68B2D37FACDE6272C890F5D4F8C77BB4614E244F59F49E184745",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P002-O01",
+          "context": "M1 Milan historic core"
+        },
+        {
+          "anchor": "photo-P002-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "caption": "Galleria Vittorio Emanuele II",
+      "query": "Galleria Vittorio Emanuele II Milan interior photograph",
+      "source_image_sha1": "e209053dbb52451394d691109aabc08d97f15fc7",
+      "commons_title": "File:Interior - Galleria Vittorio Emanuele II - Milan 2014.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Interior_-_Galleria_Vittorio_Emanuele_II_-_Milan_2014.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Interior_-_Galleria_Vittorio_Emanuele_II_-_Milan_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Interior_-_Galleria_Vittorio_Emanuele_II_-_Milan_2014.jpg/1280px-Interior_-_Galleria_Vittorio_Emanuele_II_-_Milan_2014.jpg",
+      "creator": "José Luiz",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Galleria Vittorio Emanuele II (Milan) - Interior",
+      "source_date": "2014-02-21 14:19:54",
+      "original_width_px": 1728,
+      "original_height_px": 2592,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 1920,
+      "binary_sha256": "44444A399067D2331C4393EE3F6169E06633A8C5786387F2F200C6E63C32244D",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P003-O01",
+          "context": "M1 Milan historic core"
+        },
+        {
+          "anchor": "photo-P003-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P004",
+      "caption": "Sforza Castle",
+      "query": "Sforza Castle Milan courtyard photograph",
+      "source_image_sha1": "d880517a1caa53cab6514f63e02efaa1882dcc8b",
+      "commons_title": "File:Sforza Castle.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Sforza_Castle.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sforza_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sforza_Castle.jpg/1280px-Sforza_Castle.jpg",
+      "creator": "CastelloSforzesco-MainCourtyardPanorama.jpg : chris 論 derivative work: Conte di Cavour",
+      "credit": "This file was derived from: CastelloSforzesco-MainCourtyardPanorama.jpg :",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "180° panoramic photograph of the main courtyard of Castello Sforzesco in Milan, taken from the middle of the north western edge.",
+      "source_date": "2013-06-13 23:13",
+      "original_width_px": 3776,
+      "original_height_px": 2153,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 730,
+      "binary_sha256": "CAFEF0ED8366E3F3C42EEF28825EBD68364203587AFB7F6E4EBFD8F213C284DA",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P004-O01",
+          "context": "M1 Milan historic core"
+        },
+        {
+          "anchor": "photo-P004-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P005",
+      "caption": "Brera",
+      "query": "Brera district Milan street photograph",
+      "source_image_sha1": "b2b0fb643c506a35048a9527ad227221beeab0f2",
+      "commons_title": "File:Chiesa di San Carpoforo.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Carpoforo.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Chiesa_di_San_Carpoforo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Chiesa_di_San_Carpoforo.jpg/1280px-Chiesa_di_San_Carpoforo.jpg",
+      "creator": "Bridge2Mi",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "The Church of San Carpoforo is a deconsecrated church located in the bohemian Brera district. Deconsecrated in 1797, it was purchased by the municipality of Milan in 1864. In 1993 it was given for free use to the Academy of Fine Arts of Brera which uses it as a venue for the courses of decoration, restoration and contemporary sacred art.",
+      "source_date": "2019-04-26",
+      "original_width_px": 3024,
+      "original_height_px": 4032,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 1707,
+      "binary_sha256": "9AF2D903105E4DBBCBACE97DB290ACA1DA5AEADD9C827E843071693987F1ED80",
+      "candidate_count": 1,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P005-O01",
+          "context": "M1 Milan historic core"
+        },
+        {
+          "anchor": "photo-P005-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P006",
+      "caption": "Navigli",
+      "query": "Naviglio Grande Mil",
+      "source_image_sha1": "199a9d87acc2a2f46e83321c253b2ac8a37a889d",
+      "commons_title": "File:Naviglio Grande Mil.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Naviglio_Grande_Mil.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Naviglio_Grande_Mil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Naviglio_Grande_Mil.jpg/1280px-Naviglio_Grande_Mil.jpg",
+      "creator": "Lolo7303",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Vue du Naviglio Grande en soirée",
+      "source_date": "2022-06-25",
+      "original_width_px": 3024,
+      "original_height_px": 4032,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 1707,
+      "binary_sha256": "D8434B31ADE24C2D188781665FC4C6910249EB1C0FCCAAF6DA9C7794B7362E05",
+      "candidate_count": 1,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P006-O01",
+          "context": "M2 Navigli and Tortona design district"
+        },
+        {
+          "anchor": "photo-P006-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P007",
+      "caption": "The Last Supper",
+      "query": "Leonardo Last Supper high resolution",
+      "source_image_sha1": "9429e47401f307b358f00e5b03d1e882e63ae86e",
+      "commons_title": "File:Leonardo da Vinci - The Last Supper high res.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg/1280px-Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
+      "creator": "Leonardo da Vinci",
+      "credit": "File:Última_Cena_-_Da_Vinci_5.jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "source_description": "Public Domain version of Leonardo da Vinci's Last Supper. High-resolution JPEG image, with no watermarks.",
+      "source_date": "from 1495 until 1498 date QS:P571,+1495-00-00T00:00:00Z/8,P580,+1495-00-00T00:00:00Z/9,P582,+1498-00-00T00:00:00Z/9",
+      "original_width_px": 5381,
+      "original_height_px": 2926,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 696,
+      "binary_sha256": "A997837A8D36D7AF2D72A014E33126BCD4E7726FD3458DD1EBE79AD26E0B173E",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P007-O01",
+          "context": "M1 Milan historic core"
+        },
+        {
+          "anchor": "photo-P007-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "caption": "Como lakefront",
+      "query": "Como lakefront panorama",
+      "source_image_sha1": "bb8d7e68bd55fdbe7088c3e7b704ca576d63f4e6",
+      "commons_title": "File:Panorama Como lungolago.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Panorama_Como_lungolago.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Panorama_Como_lungolago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Panorama_Como_lungolago.jpg/1280px-Panorama_Como_lungolago.jpg",
+      "creator": "FSosio",
+      "credit": "Own work",
+      "licence": "Public domain",
+      "licence_url": null,
+      "source_description": "Vista del lungolago di Como",
+      "source_date": "6 July 2009, 09:28:17 (according to Exif data)",
+      "original_width_px": 3680,
+      "original_height_px": 2760,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 960,
+      "binary_sha256": "91DE6CCAE43F9BB622B848BB42433B0C127A14CD5F2FD056A70023511B6D5EE2",
+      "candidate_count": 6,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P008-O01",
+          "context": "M3 Lake Como: Varenna and Bellagio"
+        },
+        {
+          "anchor": "photo-P008-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P009",
+      "caption": "Como-Brunate funicular",
+      "query": "Como Brunate funicular photograph",
+      "source_image_sha1": "d9aeae8685ffb50bfcaa85b80ab1e514b15850f6",
+      "commons_title": "File:Como–Brunate funicular October 2012 03.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Como%E2%80%93Brunate_funicular_October_2012_03.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Como%E2%80%93Brunate_funicular_October_2012_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Como%E2%80%93Brunate_funicular_October_2012_03.jpg/1280px-Como%E2%80%93Brunate_funicular_October_2012_03.jpg",
+      "creator": "Chris j wood",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "A car in the lower station of the Como–Brunate funicular, with the tunnel mouth visible behind the car. For more information, see the wikipedia article Como–Brunate funicular .",
+      "source_date": "2012-10-05 14:23:53",
+      "original_width_px": 4608,
+      "original_height_px": 3456,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 960,
+      "binary_sha256": "5F9079C99D62AA083F29D9FBE43052645FC147FE0AB05512C19E5BA27378826B",
+      "candidate_count": 7,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P009-O01",
+          "context": "M3 Lake Como: Varenna and Bellagio"
+        },
+        {
+          "anchor": "photo-P009-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P010",
+      "caption": "Como Cathedral",
+      "query": "Duomo di Como facade",
+      "source_image_sha1": "3741c88f3832a375e84b0e92f7e0ce24be4ec3a1",
+      "commons_title": "File:Duomo di Como - la facciata - 02.JPG",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Duomo_di_Como_-_la_facciata_-_02.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Duomo_di_Como_-_la_facciata_-_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Duomo_di_Como_-_la_facciata_-_02.JPG/1280px-Duomo_di_Como_-_la_facciata_-_02.JPG",
+      "creator": "Stefano Stabile",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Como cathedral facede - italy - 03",
+      "source_date": "2012-09-22 16:15:40",
+      "original_width_px": 1536,
+      "original_height_px": 2048,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 1707,
+      "binary_sha256": "ED06C428B9199EE2C29D0A7E5E4A4BE3C8B1A417DCFB5BCFB7498ABF42EF1C34",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P010-O01",
+          "context": "M3 Lake Como: Varenna and Bellagio"
+        },
+        {
+          "anchor": "photo-P010-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P011",
+      "caption": "Varenna",
+      "query": "Varenna Lake Como",
+      "source_image_sha1": "a74878178a4f241fd4cd147485391610075701f5",
+      "commons_title": "File:Varenna, Lake Como (4632565337).jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Varenna,_Lake_Como_(4632565337).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Varenna%2C_Lake_Como_%284632565337%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Varenna%2C_Lake_Como_%284632565337%29.jpg/1280px-Varenna%2C_Lake_Como_%284632565337%29.jpg",
+      "creator": "Randi Hausken from Bærum, Norway",
+      "credit": "Varenna, Lake Como",
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_description": "From Varenna, northern Italy, with the Alps in the background.",
+      "source_date": "2010-05-16 03:59",
+      "original_width_px": 3811,
+      "original_height_px": 2412,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 810,
+      "binary_sha256": "6900747F6AA99C5CDF150AF6269B2A95962013A785F2488463AABEB9FE20E3DA",
+      "candidate_count": 7,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P011-O01",
+          "context": "M3 Lake Como: Varenna and Bellagio"
+        },
+        {
+          "anchor": "photo-P011-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P012",
+      "caption": "Bellagio",
+      "query": "Bellagio Lake Como",
+      "source_image_sha1": "447c9a290ad8f90d0cfd6ea2da1813ebd34fe413",
+      "commons_title": "File:Bellagio panorama from Lake Como ferry.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Bellagio_panorama_from_Lake_Como_ferry.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bellagio_panorama_from_Lake_Como_ferry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Bellagio_panorama_from_Lake_Como_ferry.jpg/1280px-Bellagio_panorama_from_Lake_Como_ferry.jpg",
+      "creator": "Daniel Case",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Panorama of Bellagio (left) and its point at the fork of Lake Como from the ferry up the southwest arm.",
+      "source_date": "2016-06-23",
+      "original_width_px": 5712,
+      "original_height_px": 1908,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 428,
+      "binary_sha256": "94C8179BE4293EA1A2BACD46172A7150DFDFC874CD3E745C1E752A637C9A58B0",
+      "candidate_count": 4,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P012-O01",
+          "context": "M3 Lake Como: Varenna and Bellagio"
+        },
+        {
+          "anchor": "photo-P012-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P013",
+      "caption": "Lake Como ferry",
+      "query": "Lake Como ferry",
+      "source_image_sha1": "2586a4013d7275ddeac2992c22045d1b191817a1",
+      "commons_title": "File:Rear deck of Lake Como ferry, with passengers.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Rear_deck_of_Lake_Como_ferry,_with_passengers.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Rear_deck_of_Lake_Como_ferry%2C_with_passengers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Rear_deck_of_Lake_Como_ferry%2C_with_passengers.jpg/1280px-Rear_deck_of_Lake_Como_ferry%2C_with_passengers.jpg",
+      "creator": "Daniel Case",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "The rear deck of one of the ferries up Lake Como seen shortly after departure from Nesso .",
+      "source_date": "2016-06-23",
+      "original_width_px": 5580,
+      "original_height_px": 3852,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 884,
+      "binary_sha256": "FABC1AF9014076D0FE8A289554659DC0B8D40822537C27D36F45558A58F77F1D",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P013-O01",
+          "context": "M3 Lake Como: Varenna and Bellagio"
+        },
+        {
+          "anchor": "photo-P013-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P014",
+      "caption": "Bergamo Città Alta",
+      "query": "View of Bergamo Citta Alta from Via Sudorno",
+      "source_image_sha1": "3b4f9c62157f155ff2b0d4bc8d16238092be6a17",
+      "commons_title": "File:View of Bergamo Città Alta from Via Sudorno, Italy (November 2021).jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:View_of_Bergamo_Citt%C3%A0_Alta_from_Via_Sudorno,_Italy_(November_2021).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/View_of_Bergamo_Citt%C3%A0_Alta_from_Via_Sudorno%2C_Italy_%28November_2021%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/View_of_Bergamo_Citt%C3%A0_Alta_from_Via_Sudorno%2C_Italy_%28November_2021%29.jpg/1280px-View_of_Bergamo_Citt%C3%A0_Alta_from_Via_Sudorno%2C_Italy_%28November_2021%29.jpg",
+      "creator": "Leon Snyers",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "paysage de Bergame, Ville haute (Città Alta)",
+      "source_date": "2021-11-18 14:50:36",
+      "original_width_px": 4608,
+      "original_height_px": 3456,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 960,
+      "binary_sha256": "4288E6B7577E1C6C947C06386032B456823A7EA84C16E3D220178A4DCA8F0E71",
+      "candidate_count": 1,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P014-O01",
+          "context": "M4 Bergamo Città Alta"
+        },
+        {
+          "anchor": "photo-P014-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P015",
+      "caption": "Bergamo Venetian walls",
+      "query": "Mura Venete Bergamo",
+      "source_image_sha1": "8e058bc5a0d99d51ab126e08e1305050ca27fbc3",
+      "commons_title": "File:BG MuraVenete 05.JPG",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:BG_MuraVenete_05.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BG_MuraVenete_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BG_MuraVenete_05.JPG/1280px-BG_MuraVenete_05.JPG",
+      "creator": "Ago76",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Piattaforma di Sant'Andrea (vista dalla porta di San Giacomo), Mura Venete, Bergamo, Italy",
+      "source_date": "2007-12-21",
+      "original_width_px": 2048,
+      "original_height_px": 1536,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 960,
+      "binary_sha256": "2BCE06FBE185427B88CB57D231816E8E567892B5BEFBC5B89A3D921E6F14052A",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P015-O01",
+          "context": "M4 Bergamo Città Alta"
+        },
+        {
+          "anchor": "photo-P015-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P016",
+      "caption": "Pavia covered bridge",
+      "query": "Ponte Coperto Pavia photograph",
+      "source_image_sha1": "3d2fbd911849f39f8594a9b84397412d3f2784ad",
+      "commons_title": "File:Pavia, Ponte Coperto by night.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Pavia,_Ponte_Coperto_by_night.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Pavia%2C_Ponte_Coperto_by_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Pavia%2C_Ponte_Coperto_by_night.jpg/1280px-Pavia%2C_Ponte_Coperto_by_night.jpg",
+      "creator": "BáthoryPéter ( talk )",
+      "credit": "Self-photographed",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Ponte Coperto in Pavia",
+      "source_date": "2008-07-21 00:12",
+      "original_width_px": 3008,
+      "original_height_px": 1692,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 720,
+      "binary_sha256": "037839C26B1E5C386DE3A3B28C491D15D5C0DA30DEBF97417F1AA223DE0A8E41",
+      "candidate_count": 7,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P016-O01",
+          "context": "M5 Pavia and Certosa di Pavia"
+        },
+        {
+          "anchor": "photo-P016-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P017",
+      "caption": "Pavia historic centre",
+      "query": "Pavia historic centre",
+      "source_image_sha1": "60da3a5dcf6058b1cdba8ee24d2e0d3c6eaf4494",
+      "commons_title": "File:Santa Maria del Carmine.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Carmine.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Santa_Maria_del_Carmine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Santa_Maria_del_Carmine.jpg/1280px-Santa_Maria_del_Carmine.jpg",
+      "creator": "Groume",
+      "credit": "originally posted to Flickr as Santa Maria del Carmine",
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_description": "Encore une église. En brique. C'est Pavie.",
+      "source_date": "2009-08-11 16:01:17",
+      "original_width_px": 3156,
+      "original_height_px": 2306,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 935,
+      "binary_sha256": "82A161D951B91B156D392570B0CC3685B75AA5F22ECFFB63D269AC407233BB23",
+      "candidate_count": 1,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P017-O01",
+          "context": "M5 Pavia and Certosa di Pavia"
+        },
+        {
+          "anchor": "photo-P017-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P018",
+      "caption": "Certosa di Pavia",
+      "query": "Certosa di Pavia facade photograph",
+      "source_image_sha1": "00772043a40a80db8044c666230290a52cd208ec",
+      "commons_title": "File:Karthauzi kolostor (Certosa di Pavia). Fortepan 17784.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Karthauzi_kolostor_(Certosa_di_Pavia)._Fortepan_17784.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Karthauzi_kolostor_%28Certosa_di_Pavia%29._Fortepan_17784.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Karthauzi_kolostor_%28Certosa_di_Pavia%29._Fortepan_17784.jpg/1280px-Karthauzi_kolostor_%28Certosa_di_Pavia%29._Fortepan_17784.jpg",
+      "creator": "FOTO:Fortepan — ID 17784 : Adományozó/Donor: Schoch Frigyes.",
+      "credit": "http://www.fortepan.hu/_photo/download/fortepan_27532.jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "source_description": "karthauzi kolostor (Certosa di Pavia).",
+      "source_date": "1910",
+      "original_width_px": 3215,
+      "original_height_px": 2363,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 941,
+      "binary_sha256": "777C57846137DD869FC8D0C699B615FC510F8BCB0D380521CE9189CEB20C05A1",
+      "candidate_count": 6,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P018-O01",
+          "context": "M5 Pavia and Certosa di Pavia"
+        },
+        {
+          "anchor": "photo-P018-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P019",
+      "caption": "Stresa lakefront",
+      "query": "Stresa Lake Maggiore waterfront photograph",
+      "source_image_sha1": "68fa2da341e5b0417d603371c98a41413af42823",
+      "commons_title": "File:Italy-01940 - Stresa (22385720167).jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Italy-01940_-_Stresa_(22385720167).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Italy-01940_-_Stresa_%2822385720167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Italy-01940_-_Stresa_%2822385720167%29.jpg/1280px-Italy-01940_-_Stresa_%2822385720167%29.jpg",
+      "creator": "Dennis G. Jarvis",
+      "credit": "Italy-01940 - Stresa",
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_description": "Stresa has a great waterfront park and beach area to explore.",
+      "source_date": "2015-06-21 08:27",
+      "original_width_px": 6000,
+      "original_height_px": 4000,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 853,
+      "binary_sha256": "8180000FFC024DA89DB84C767523FCF8783311EC8C1DB58544D0B9E5B361A6EB",
+      "candidate_count": 1,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P019-O01",
+          "context": "M7 Stresa and the Borromean Islands"
+        },
+        {
+          "anchor": "photo-P019-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P020",
+      "caption": "Isola Bella",
+      "query": "Isola Bella Borromean Islands palace gardens photograph",
+      "source_image_sha1": "f6fd3c3d3ba23b8029baa334abf888a4f4ef7f8c",
+      "commons_title": "File:Borromean Islands (Isole Borromee, Lago Maggiore) (6731288593).jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Borromean_Islands_(Isole_Borromee,_Lago_Maggiore)_(6731288593).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Borromean_Islands_%28Isole_Borromee%2C_Lago_Maggiore%29_%286731288593%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Borromean_Islands_%28Isole_Borromee%2C_Lago_Maggiore%29_%286731288593%29.jpg/1280px-Borromean_Islands_%28Isole_Borromee%2C_Lago_Maggiore%29_%286731288593%29.jpg",
+      "creator": "Archangel12",
+      "credit": "Borromean Islands (Isole Borromee, Lago Maggiore)",
+      "licence": "CC BY 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_description": "Isola Bella coming from Isola dei Pescatori. Isola Bella, named for Isabella, countess Borromeo, was originally a largely barren rock; after first improvements and buildings, opened by count Carlo III between 1629 and 1652, his son Vitaliano the 6th built an attractive summer palace, bringing in vast quantities of soil in order to build up a system of ten terraces for the garden. The unfinished building displays paintings by Lombard artists and Flemish tapestries. en.wikipedia.org/wiki/Isola_Bella_ (Lago_Maggiore)",
+      "source_date": "2009-08-26 14:03",
+      "original_width_px": 4288,
+      "original_height_px": 2848,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 850,
+      "binary_sha256": "9C255E778CCBE183CC817339D26E667A09DA5871EF45D0E2E67344126D95BF2E",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P020-O01",
+          "context": "M7 Stresa and the Borromean Islands"
+        },
+        {
+          "anchor": "photo-P020-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P021",
+      "caption": "Borromean Islands",
+      "query": "Isola Madre Lake Maggiore panorama",
+      "source_image_sha1": "9e19af2b3876a1352be2512572d654be1020fd35",
+      "commons_title": "File:Vista del Lago Maggiore dall'Isola Madre.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Vista_del_Lago_Maggiore_dall%27Isola_Madre.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Vista_del_Lago_Maggiore_dall%27Isola_Madre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Vista_del_Lago_Maggiore_dall%27Isola_Madre.jpg/1280px-Vista_del_Lago_Maggiore_dall%27Isola_Madre.jpg",
+      "creator": "Simo ubuntu",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Landscape of Lake Maggiore from Isola Madre. A view to Baveno -Feriolo and mouth of river Toce , Verbania and mountains in Alpi Ticinesi .",
+      "source_date": "2008-07-21",
+      "original_width_px": 10864,
+      "original_height_px": 1728,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 204,
+      "binary_sha256": "B9AC503B66BEE2997DE3DCFC7B9AB658EFD2BCB41020E1DF147676891280D96C",
+      "candidate_count": 2,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P021-O01",
+          "context": "M7 Stresa and the Borromean Islands"
+        },
+        {
+          "anchor": "photo-P021-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P022",
+      "caption": "Modern Milan skyline",
+      "query": "Milan skyline Porta Nuova photograph",
+      "source_image_sha1": "f926abe67126aebdd179368393d8c46ef52797dc",
+      "commons_title": "File:Milan skyline around Unicredit Tower from Duomo.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Milan_skyline_around_Unicredit_Tower_from_Duomo.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Milan_skyline_around_Unicredit_Tower_from_Duomo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Milan_skyline_around_Unicredit_Tower_from_Duomo.jpg/1280px-Milan_skyline_around_Unicredit_Tower_from_Duomo.jpg",
+      "creator": "Daniel Case",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "The Milan skyline around the Unicredit Tower seen from the roof of the Duomo",
+      "source_date": "2016-06-21",
+      "original_width_px": 5880,
+      "original_height_px": 3960,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 862,
+      "binary_sha256": "43E31592DFBF8655BEB129AAFD917B7B9177EF3C4F43D9C953940E7FC8426F72",
+      "candidate_count": 6,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P022-O01",
+          "context": "M2 Navigli and Tortona design district"
+        },
+        {
+          "anchor": "photo-P022-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P023",
+      "caption": "Royal Villa of Monza",
+      "query": "Villa Reale Monza facciata",
+      "source_image_sha1": "6651ef6edc8934835d18eeb789e80139833731ae",
+      "commons_title": "File:Villa Reale Monza facciata.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Villa_Reale_Monza_facciata.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Villa_Reale_Monza_facciata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Villa_Reale_Monza_facciata.jpg/1280px-Villa_Reale_Monza_facciata.jpg",
+      "creator": "Paola79",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Villa Reale Monza facciata",
+      "source_date": "2014-09-13 14:32:15",
+      "original_width_px": 3984,
+      "original_height_px": 2656,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 853,
+      "binary_sha256": "2F2ACDB96E0FE1159DE5549AEB366DFCCF0A827972DEA5C510BF99D3BAB33BE8",
+      "candidate_count": 6,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P023-O01",
+          "context": "M6 Monza: Royal Villa, park and cathedral"
+        },
+        {
+          "anchor": "photo-P023-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P024",
+      "caption": "Monza Cathedral",
+      "query": "Monza facciata del Duomo di San Giovanni",
+      "source_image_sha1": "ff9f27f1ac2f6b74b5ff8cb39de879945335ea1b",
+      "commons_title": "File:Monza facciata del Duomo di San Giovanni.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Monza_facciata_del_Duomo_di_San_Giovanni.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Monza_facciata_del_Duomo_di_San_Giovanni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Monza_facciata_del_Duomo_di_San_Giovanni.jpg/1280px-Monza_facciata_del_Duomo_di_San_Giovanni.jpg",
+      "creator": "Giuseppe Barberis",
+      "credit": "Strafforello Gustavo, La patria, geografia dell'Italia. Provincia di Milano, Unione Tipografico-Editrice, Torino, 1894.",
+      "licence": "Public domain",
+      "licence_url": null,
+      "source_description": "Monza: facciata del Duomo di San Giovanni (xilografia di Giuseppe Barberis).",
+      "source_date": "1894",
+      "original_width_px": 2065,
+      "original_height_px": 2595,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 1609,
+      "binary_sha256": "C57174B86ABBD41101BC43D3147A9B1716E129DD0F859B7D0347D4E917CE8E11",
+      "candidate_count": 2,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P024-O01",
+          "context": "M6 Monza: Royal Villa, park and cathedral"
+        },
+        {
+          "anchor": "photo-P024-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P025",
+      "caption": "Monza Park",
+      "query": "Parco di Monza autumn",
+      "source_image_sha1": "781e634240f3c961ebf92af36492f97b4d6e3f30",
+      "commons_title": "File:Parco di Monza, 20052 Монца MI, Италија - panoramio - gorchfin.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Parco_di_Monza,_20052_%D0%9C%D0%BE%D0%BD%D1%86%D0%B0_MI,_%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%98%D0%B0_-_panoramio_-_gorchfin.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Parco_di_Monza%2C_20052_%D0%9C%D0%BE%D0%BD%D1%86%D0%B0_MI%2C_%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%98%D0%B0_-_panoramio_-_gorchfin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Parco_di_Monza%2C_20052_%D0%9C%D0%BE%D0%BD%D1%86%D0%B0_MI%2C_%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%98%D0%B0_-_panoramio_-_gorchfin.jpg/1280px-Parco_di_Monza%2C_20052_%D0%9C%D0%BE%D0%BD%D1%86%D0%B0_MI%2C_%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%98%D0%B0_-_panoramio_-_gorchfin.jpg",
+      "creator": "gorchfin",
+      "credit": "https://web.archive.org/web/20161015010105/http://www.panoramio.com/photo/31070864",
+      "licence": "CC BY 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_description": "Parco di Monza, 20052 Монца MI, Италија",
+      "source_date": "Taken on 6 January 2010",
+      "original_width_px": 2048,
+      "original_height_px": 1536,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 960,
+      "binary_sha256": "A18091F91E4489156C04F46D1B99AEF9E3F0E43F5B6D1A983D4997E928F679FE",
+      "candidate_count": 2,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P025-O01",
+          "context": "M6 Monza: Royal Villa, park and cathedral"
+        },
+        {
+          "anchor": "photo-P025-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P026",
+      "caption": "Monte Isola seen from Sulzano",
+      "query": "Monte Isola from Sulzano",
+      "source_image_sha1": "d265c16408b08d8a164ab79719cc40799b74b218",
+      "commons_title": "File:Sulzano landscape 01.JPG",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Sulzano_landscape_01.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sulzano_landscape_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sulzano_landscape_01.JPG/1280px-Sulzano_landscape_01.JPG",
+      "creator": "Ago76",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Sulzano landscape, lake of Iseo. View from Monte Isola. Lombardy. Italy",
+      "source_date": "2014-06-08 13:59:24",
+      "original_width_px": 3456,
+      "original_height_px": 1688,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 625,
+      "binary_sha256": "5A22AC7341977FB3603D4FBB15779D480479BC7A64A4F1714EBF863B2C9B66A0",
+      "candidate_count": 5,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P026-O01",
+          "context": "MX01 Lake Iseo and Monte Isola"
+        },
+        {
+          "anchor": "photo-P026-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P027",
+      "caption": "Sanctuary of Madonna della Ceriola on Monte Isola",
+      "query": "Madonna Ceriola",
+      "source_image_sha1": "34033d7987e3e87a7327801a365cb4d004ca8ec5",
+      "commons_title": "File:Santuario della Madonna della Ceriola.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Santuario_della_Madonna_della_Ceriola.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Santuario_della_Madonna_della_Ceriola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Santuario_della_Madonna_della_Ceriola.jpg/1280px-Santuario_della_Madonna_della_Ceriola.jpg",
+      "creator": "Kondephy",
+      "credit": "Own work",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Santuario della Madonna della Ceriola auf der Spitze der Monte Isola im Iseosee",
+      "source_date": "2006-05-31",
+      "original_width_px": 2384,
+      "original_height_px": 1788,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 960,
+      "binary_sha256": "C5A99E4E1D25304FB949D9555C0312E383248A03CAEDF1524D1C21955673CD43",
+      "candidate_count": 4,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P027-O01",
+          "context": "MX01 Lake Iseo and Monte Isola"
+        },
+        {
+          "anchor": "photo-P027-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P028",
+      "caption": "Sacro Monte di Varese chapels",
+      "query": "Sacro Monte di Varese",
+      "source_image_sha1": "6bc27a003ec80fdf9dd78f39c0ffb31000b850fd",
+      "commons_title": "File:Varese Sacro Monte di Varese 28.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Varese_Sacro_Monte_di_Varese_28.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Varese_Sacro_Monte_di_Varese_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Varese_Sacro_Monte_di_Varese_28.jpg/1280px-Varese_Sacro_Monte_di_Varese_28.jpg",
+      "creator": "Zairon",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Holy Mountain of Varese, Varese, Province of Varese, Region of Lombardy, Italy",
+      "source_date": "2020-09-17",
+      "original_width_px": 4458,
+      "original_height_px": 3105,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 892,
+      "binary_sha256": "F4A9E2C15CDE01F40A6F7F7B9925E2D3086C89A2F1F8B4799FEBE2ED6A8D0D71",
+      "candidate_count": 8,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P028-O01",
+          "context": "MX02 Sacro Monte di Varese"
+        },
+        {
+          "anchor": "photo-P028-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P029",
+      "caption": "Lakes Ganna and Ghirla from the Campo dei Fiori park",
+      "query": "Campo dei Fiori Varese view panorama",
+      "source_image_sha1": "8996f2b7af9206c4e159be36498e7f2b28bd8654",
+      "commons_title": "File:Pogliana - Laghi Ganna Ghirla dal Poncione di Ganna.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Pogliana_-_Laghi_Ganna_Ghirla_dal_Poncione_di_Ganna.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Pogliana_-_Laghi_Ganna_Ghirla_dal_Poncione_di_Ganna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Pogliana_-_Laghi_Ganna_Ghirla_dal_Poncione_di_Ganna.jpg/1280px-Pogliana_-_Laghi_Ganna_Ghirla_dal_Poncione_di_Ganna.jpg",
+      "creator": "Mario Falcetti",
+      "credit": "Own work",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0",
+      "source_description": "From the top of Mount Poncione di Ganna (992 m.) people can see a vast panorama of the Valganna, with the Ganna and Ghirla lakes, Mount Campo dei Fiori, the Varese lakes, Mount Martica, the Valceresio, with Lake Lugano, Mount Minisfreddo, Mount Orsa, Mount San Giorgio and in the background Mount Generoso, Mount Rosa, the Lepontine Alps and the Rhaetian Alps.",
+      "source_date": "2026-03-29 13:04:29",
+      "original_width_px": 4000,
+      "original_height_px": 3000,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 960,
+      "binary_sha256": "C250E78BDDDEFC0BD9CFB73BE762B3F4E1AAA954B328675AE2A6FBF1F0E7D081",
+      "candidate_count": 4,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P029-O01",
+          "context": "MX03 Campo dei Fiori Regional Park and Sentiero 360"
+        },
+        {
+          "anchor": "photo-P029-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P030",
+      "caption": "Val di Mello panorama",
+      "query": "Val di Mello panorama",
+      "source_image_sha1": "86b3c52259af1bb4ce1d81c6dd913f19ad92de2e",
+      "commons_title": "File:Val di mello, panorama.jpg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Val_di_mello,_panorama.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Val_di_mello%2C_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Val_di_mello%2C_panorama.jpg",
+      "creator": "Rncrcr64",
+      "credit": "Own work",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Bagni di Masino - Pizzo Badile - Val di Mello - Val Torrone - Piano di Preda Rossa ( Q47483391 )",
+      "source_date": "2019-10-26 09:45:11",
+      "original_width_px": 1280,
+      "original_height_px": 854,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 854,
+      "binary_sha256": "367DD5F875A66B78A13ED95356EA12F63C3417FD056142290DC437D83ECC6752",
+      "candidate_count": 1,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P030-O01",
+          "context": "MX05 Val di Mello"
+        },
+        {
+          "anchor": "photo-P030-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    },
+    {
+      "id": "P031",
+      "caption": "Val di Mello water and granite landscape",
+      "query": "Val di Mello lake",
+      "source_image_sha1": "cf8f6ba511407e2ff22d679c7b12df85723d6da4",
+      "commons_title": "File:Val Di Mello (190341605).jpeg",
+      "commons_page_url": "https://commons.wikimedia.org/wiki/File:Val_Di_Mello_(190341605).jpeg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Val_Di_Mello_%28190341605%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloaded_thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Val_Di_Mello_%28190341605%29.jpeg/1280px-Val_Di_Mello_%28190341605%29.jpeg",
+      "creator": "Andrea Pagani",
+      "credit": "Imported from 500px ( archived version ) by the Archive Team . ( detail page )",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "500px provided description: Val Di Mello [#sky ,#landscape ,#lake ,#reflections ,#mountains ,#water ,#reflection ,#clouds ,#italy ,#tree ,#landscapes ,#mountain ,#symmetry ,#val di mello ,#mello]",
+      "source_date": "10 September 2016, 16:24:19 (UTC)",
+      "original_width_px": 2048,
+      "original_height_px": 1365,
+      "embedded_width_px": 1280,
+      "embedded_height_px": 853,
+      "binary_sha256": "302E830D29C7A3617731A3589B0EC9C6B95ED0F5A81F59C88E802626B7076A87",
+      "candidate_count": 5,
+      "contextual_appearance_count": 1,
+      "appearance_count": 2,
+      "occurrences": [
+        {
+          "anchor": "photo-P031-O01",
+          "context": "MX05 Val di Mello"
+        },
+        {
+          "anchor": "photo-P031-O02",
+          "context": "Photo atlas"
+        }
+      ]
+    }
+  ]
+}
