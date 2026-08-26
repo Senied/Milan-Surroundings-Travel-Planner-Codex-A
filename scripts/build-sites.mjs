@@ -15,7 +15,6 @@ const publicEntries = [
   "assets",
   "guide",
   "previous",
-  "releases",
 ];
 
 if (!clientRoot.startsWith(`${outputRoot}${sep}`)) {
@@ -33,16 +32,6 @@ for (const entry of publicEntries) {
     force: true,
   });
 }
-
-// The downloadable package is supplied separately; the site keeps only guide editions.
-await rm(
-  join(
-    clientRoot,
-    "releases",
-    "Milan_Surroundings_Travel_Guide_2026_v1_2_bundle.zip",
-  ),
-  { force: true },
-);
 
 await cp(
   join(projectRoot, "worker", "index.js"),
