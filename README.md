@@ -1,17 +1,10 @@
-﻿# Milan & Surroundings Travel Planner
+# Milan & Surroundings Travel Planner
 
 A responsive 2026 travel planner for Milan, the Italian lakes and regional day trips.
 
-## Open
+## Open or download
 
 - [Website](https://senied.github.io/Milan-Surroundings-Travel-Planner-Codex-A/)
-- [Interactive guide](guide/index.html)
-- [Printable PDF](guide/Milan_Excursions_Travel_Planner_2026.pdf)
-
-## Local
-
-```bash
-python -m http.server 18903
-```
-
-Then open `http://127.0.0.1:18903/`.
+- [Interactive guide](https://senied.github.io/Milan-Surroundings-Travel-Planner-Codex-A/guide/)
+- [Printable PDF](https://senied.github.io/Milan-Surroundings-Travel-Planner-Codex-A/guide/Milan_Excursions_Travel_Planner_2026.pdf)
+- [Offline bundle](https://senied.github.io/Milan-Surroundings-Travel-Planner-Codex-A/releases/Milan_Surroundings_Modular_Travel_Planner_2026_v1_3_bundle.zip)
