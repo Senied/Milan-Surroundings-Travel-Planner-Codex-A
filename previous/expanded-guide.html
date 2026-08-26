@@ -30,8 +30,17 @@
 
 :root{--green:#6b2636;--green2:#914052;--dark:#28131a;--gold:#c4924f;--blue:#557e96;--guide-footer:"Milan + surroundings · v1.1"}</style><style data-archive-polish="true">
 @media (max-width:1100px){
-  .sidebar nav{scrollbar-width:none;-ms-overflow-style:none}
+  .app-shell{grid-template-columns:minmax(0,1fr)!important}
+  .main,.cover,.cover-content{width:100%;min-width:0;max-width:100%}
+  .main{overflow-x:hidden}
+  .sidebar{flex-wrap:wrap}
+  .sidebar nav{display:flex!important;order:3;width:100%;gap:6px;margin:0;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+  .sidebar nav a{flex:0 0 auto;border:1px solid rgba(255,255,255,.16);border-radius:8px}
   .sidebar nav::-webkit-scrollbar{display:none}
+  .cover-content{width:100%;min-width:0;max-width:100%;box-sizing:border-box}
+  .cover h1{max-width:100%;overflow-wrap:anywhere}
+  .deck,.cover-meta,.cover-actions{max-width:100%}
+  .cover-actions .button-link{max-width:100%;white-space:normal}
 }
 </style></head>
 <body><div class="app"><aside class="sidebar"><div class="brand">Milan + surroundings<small>travel planner · earlier edition</small></div><div class="search"><input aria-label="Search this guide" id="guideSearch" placeholder="Search this guide" type="search"/><div aria-live="polite" class="search-status" id="searchStatus"></div></div><nav aria-label="Guide sections"><a href="#how-to-use">How to use</a><a href="#map">Map</a><a href="#plan-builder">Choose your days</a><a href="#compatibility">Day plans</a><a href="#plan-m1">Plan 1 Historic core</a><a href="#plan-m2">Plan 2 Navigli and design</a><a href="#plan-m3">Plan 3 Varenna and Bellagio</a><a href="#plan-m4">Plan 4 Bergamo</a><a href="#plan-m5">Plan 5 Pavia and Certosa</a><a href="#plan-m6">Plan 6 Monza</a><a href="#plan-m7">Plan 7 Stresa islands</a><a href="#excursion-catalogue">30 excursion ideas</a><a href="#hotels">Hotels</a><a href="#transport">Transport</a><a href="#localities">Place profiles</a><a href="#budget">Budget</a><a href="#safety">Safety</a><a href="#packing">Checklist</a><a href="#photography">Photography</a><a href="#all-links">All links</a></nav><div class="side-actions"><a class="pdf-link" href="Milan_Surroundings_Modular_Travel_Planner_2026_v1_1.pdf">Open PDF</a><a href="#all-links">Every external link</a></div></aside><main class="main">
