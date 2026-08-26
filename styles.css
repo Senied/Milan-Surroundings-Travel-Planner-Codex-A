@@ -296,6 +296,42 @@ main:focus {
   will-change: transform;
 }
 
+.photo-id-link {
+  position: absolute;
+  z-index: 4;
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.34rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  border-radius: 999px;
+  background: rgba(247, 244, 238, 0.88);
+  color: var(--forest-deep);
+  box-shadow: 0 5px 18px rgba(13, 24, 19, 0.18);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition:
+    background 0.2s var(--ease),
+    transform 0.2s var(--ease);
+}
+
+.photo-id-link:hover,
+.photo-id-link:focus-visible {
+  background: var(--white);
+  transform: translateY(-1px);
+}
+
+.hero > .photo-id-link {
+  left: clamp(1.15rem, 4vw, 2.2rem);
+  bottom: 1.7rem;
+}
+
 .hero__shade {
   background: rgba(15, 22, 18, 0.55);
 }
@@ -396,7 +432,14 @@ main:focus {
 }
 
 .journey__image {
+  position: relative;
   margin: 0;
+}
+
+.journey__image > .photo-id-link,
+.plan-panel__media > .photo-id-link {
+  top: 0.85rem;
+  right: 0.85rem;
 }
 
 .journey__image img {
@@ -523,6 +566,7 @@ main:focus {
 }
 
 .plan-panel__media {
+  position: relative;
   min-height: 300px;
   margin: 0;
   overflow: hidden;
@@ -668,6 +712,11 @@ main:focus {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.62) saturate(0.78);
+}
+
+.interlude > .photo-id-link {
+  top: 1.2rem;
+  right: clamp(1.15rem, 4vw, 2.2rem);
 }
 
 .interlude figcaption {
